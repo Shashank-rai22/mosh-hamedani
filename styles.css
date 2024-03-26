@@ -1,0 +1,69 @@
+.card {
+    width: 457px;
+    height: 138px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+}
+.profile-photo {
+    width: 130px;
+    height: 130px;
+    margin-right: 14px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 14px;
+    color: #000000;
+    
+}
+
+.subject {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:#000000;
+    margin-bottom: 24px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.buttons button {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #858991;
+    margin-right: 24px;
+    margin-left: 14px;
+}
+
+.button1 {
+    background-image: url(/images/comment.PNG);
+}
+
+.button2 {
+    background-image: url(/images/retweet.PNG);
+}
+
+.button3 {
+    background-image: url(images/Like.PNG);
+}
